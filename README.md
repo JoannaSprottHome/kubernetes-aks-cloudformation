@@ -4,8 +4,8 @@
 #### Prerequisites
 
 1. AWS CLI v1.18.133 or later (`aws --version`)
-2. AWS CLI credentials configured
-3. `kubectl` installed and added to your path (command-line utility for communicating with the cluster API server)
+2. AWS CLI credentials configured (`aws s3 ls`)
+3. `kubectl` (command-line utility for communicating with the cluster API server) installed and added to your path (`kubectl version --short --client`)
 
 #### Steps prior to cluster creation
 
@@ -21,3 +21,12 @@
 
 Taken from tutorial:
 https://docs.aws.amazon.com/eks/latest/userguide/getting-started-console.html
+
+Further steps:
+- [Configure Kubernetes Cluster Autoscaler](https://docs.aws.amazon.com/eks/latest/userguide/cluster-autoscaler.html)
+- [Deploy a Linux application](https://docs.aws.amazon.com/eks/latest/userguide/sample-deployment.html)
+- [Cluster management ](https://docs.aws.amazon.com/eks/latest/userguide/eks-managing.html)
+
+Further tutorials:
+- [Interactive Kubernetes Tutorial](https://kubernetes.io/docs/tutorials/kubernetes-basics/)
+- [Complete Amazon EKS Microservices Workshop](https://www.eksworkshop.com/)
